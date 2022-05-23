@@ -97,7 +97,7 @@ const Home: NextPage = () => {
                         <div
                           className={`absolute flex bg-dark-brown -top-16 w-20 h-14 justify-center items-center text-center mb-52 text-lg font-bold z-50 ${
                             index !== hovered && `hidden`
-                          } rounded-md text-cream`}
+                          } rounded-md text-very-pale-orange`}
                         >
                           ${item.amount}
                         </div>
@@ -118,8 +118,8 @@ const Home: NextPage = () => {
                   $478.33
                 </div>
               </div>
-              <div className="flex flex-col font-bold text-md items-end">
-                <div className=" text-dark-brown">+2.4%</div>
+              <div className="flex flex-col text-md items-end">
+                <div className=" text-dark-brown font-bold">+2.4%</div>
                 <div className="text-medium-brown">from last month</div>
               </div>
             </div>
