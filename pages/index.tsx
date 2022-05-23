@@ -93,11 +93,11 @@ const Home: NextPage = () => {
                           color === "bg-cyan"
                             ? "hover:bg-hovered-cyan"
                             : "hover:bg-hovered-soft-red"
-                        } hover:cursor-pointer`}
+                        } hover:cursor-pointer transition ease-in-out duration-500`}
                       >
                         <div
-                          className={`absolute flex bg-dark-brown -top-16 w-20 h-14 justify-center items-center text-center mb-52 text-lg font-bold z-50 ${
-                            index !== hovered && `hidden`
+                          className={`absolute flex bg-dark-brown transition ease-in duration-100  -top-12 w-20 h-10 justify-center items-center text-center mb-52 text-lg z-50 ${
+                            index !== hovered && `opacity-0`
                           } rounded-md text-very-pale-orange`}
                         >
                           ${item.amount}
