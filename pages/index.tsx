@@ -52,7 +52,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="flex bg-[#F7E9DC] h-screen w-full min-w-screen min-h-screen p-4 justify-center">
-        <h1 className="hidden">Front End Mentor</h1>
+        <h1 className="absolute invisible z-10">Front End Mentor</h1>
         <div className="flex flex-col h-full items-center justify-center w-full md:w-7/12 lg:w-5/12 2xl:w-4/12">
           <div className="flex flex-row justify-between items-center w-full bg-soft-red p-5 rounded-xl my-2">
             <div className="text-very-pale-orange">
