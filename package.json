@@ -1,6 +1,7 @@
 {
   "name": "expenses-chart-component",
   "version": "0.1.0",
+  "author": "Lorenzo Perez",
   "private": true,
   "scripts": {
     "dev": "next dev",
