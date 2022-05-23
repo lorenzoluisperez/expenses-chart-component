@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
 
 const Home: NextPage = () => {
@@ -53,6 +52,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="flex bg-[#F7E9DC] h-screen w-full min-w-screen min-h-screen p-4 justify-center">
+        <h1></h1>
         <div className="flex flex-col h-full items-center justify-center w-full md:w-7/12 lg:w-5/12 2xl:w-4/12">
           <div className="flex flex-row justify-between items-center w-full bg-soft-red p-5 rounded-xl my-2">
             <div className="text-very-pale-orange">
@@ -60,7 +60,8 @@ const Home: NextPage = () => {
               <div className="font-bold text-3xl my-1">$921.48</div>
             </div>
             <div className="">
-              <Image src={"/logo.svg"} alt="logo" width={72} height={48} />
+              {/*  eslint-disable-next-line @next/next/no-img-element */}
+              <img src={"/logo.svg"} alt="logo" width={72} height={48} />
             </div>
           </div>
           <div className="flex flex-col justify-between bg-very-pale-orange h-4/6 lg:h-5/6 xl:h-4/6 rounded-xl  w-full p-5 my-2 md:h-3/6 2xl:h-3/6">
